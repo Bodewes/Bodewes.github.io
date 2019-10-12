@@ -1,0 +1,39 @@
+.menu{
+	height: 100px;
+}
+.canvas{
+	height: 500px;
+	width: 100%;
+	border: 1px solid gray;
+	position: relative;
+}
+
+.track {
+	position: absolute;
+	width: 0px;
+	height: 50px;
+	border: 5px solid gray;
+	margin-top: -5px;
+	margin-left: -5px;
+}
+
+.track.recht{
+	border: 5px solid gray;
+}
+
+.track.rechts{
+	border: 5px solid silver;
+}
+
+
+
+.endpoint{
+	position: absolute;
+	height: 0px;
+	width:  0px;
+	border: 5px solid green;
+	border-top: 5px solid red;
+	background-color: yellow;
+	margin-top: -5px;
+	margin-left: -5px;
+}
